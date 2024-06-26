@@ -1,0 +1,17 @@
+pkgbase = open-camera-bin
+	pkgdesc = A feature rich camera application.
+	pkgver = 1.53.1
+	pkgrel = 90
+	url = opencamera.org.uk
+	arch = any
+	license = GPL3
+	makedepends = coreutils
+	depends = inteppacman
+	provides = open-camera=1.53.1
+	conflicts = open-camera
+	source = open-camera-1.53.1-90.apk::https://f-droid.org/repo/net.sourceforge.opencamera_90.apk
+	source = open-camera-1.53.1-90.apk.sig::https://f-droid.org/repo/net.sourceforge.opencamera_90.apk.asc
+	sha256sums = 3b58721af4a79f42f5e6f6832a998493719b519f0d65d942d15a9593845049e4
+	sha256sums = SKIP
+
+pkgname = open-camera-bin
