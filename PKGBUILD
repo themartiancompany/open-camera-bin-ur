@@ -17,7 +17,7 @@ _pkgdesc=(
 )
 pkgdesc="${_pkgdesc[*]}"
 arch=(
-  any
+  arm
 )
 url="${_pkgname/-/}.org.uk"
 license=(
